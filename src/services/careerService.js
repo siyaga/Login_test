@@ -1,6 +1,6 @@
 const axios = require('axios');
-
-const EXTERNAL_URL = 'http://ogienurdiana.com/career/ecc694ce4e7f6e45a5a7912cde9fe131';
+require('dotenv').config();
+const EXTERNAL_URL = process.env.CAREER_API_URL;
 
 exports.fetchByFilter = async (field, value) => {
     try {
