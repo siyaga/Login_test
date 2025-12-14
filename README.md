@@ -35,3 +35,22 @@ Make sure you have the following installed:
 ```bash
 git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
 cd YOUR_REPO_NAME
+
+### 4. Environment Variables
+Create a `.env` file in the root directory. You can copy the structure below into your `.env` file:
+
+```env
+PORT=3000
+
+# Database Configuration
+DB_NAME=your_database_name
+DB_USER=your_postgres_user
+DB_PASS=your_postgres_password
+DB_HOST=localhost
+DB_DIALECT=postgres
+
+# JWT Configuration
+JWT_SECRET=your_secure_random_secret_key
+
+# External API Configuration (Required for Career Search)
+CAREER_API_URL=
