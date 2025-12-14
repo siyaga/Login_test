@@ -1,0 +1,33 @@
+{
+	"id": "0a4aee8c-dbc7-4745-86be-0efb3de495dc",
+	"name": "Environment Express AD",
+	"values": [
+		{
+			"key": "url",
+			"value": "http://localhost:3000",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "access_token",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "refresh_token",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "Token",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-12-14T07:09:53.304Z",
+	"_postman_exported_using": "Postman/11.61.9"
+}
