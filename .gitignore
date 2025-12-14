@@ -1,0 +1,41 @@
+# --- Dependencies ---
+node_modules/
+package-lock.json   # Optional: Keep this if you want to lock versions, ignore if you use yarn.lock
+
+# --- Environment Variables (CRITICAL SECURITY) ---
+.env
+.env.test
+.env.production
+
+# --- Logs ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Runtime Data & Caches ---
+pids
+*.pid
+*.seed
+*.pid.lock
+# Ignore the cache file if you decide to use the file-caching method later
+src/services/career_cache.json 
+src/services/*.json
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / Editor Configs ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Testing ---
+coverage/
+
+# --- Build / Dist (If you compile later) ---
+dist/
+build/
